@@ -5,6 +5,7 @@ import MyComponent from './MyComponent';
 import Counter from './Counter';
 import Say from './Say';
 import EventPractice from './EventPractice';
+import EventPracticeFunc from './EventPracticeFunc';
 // import { Fragment } from 'react';
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Counter></Counter>
       <Say></Say>
       <EventPractice />
+      <EventPracticeFunc />
     </>
   );
 };
