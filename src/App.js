@@ -1,26 +1,30 @@
 // import logo from './logo.svg';
-// import { Component } from 'react';
+import { Component } from 'react';
 import './App.css';
 import MyComponent from './MyComponent';
 import Counter from './Counter';
 import Say from './Say';
 import EventPractice from './EventPractice';
 import EventPracticeFunc from './EventPracticeFunc';
+import ValidationSample from './ValidationSample';
 // import { Fragment } from 'react';
 
-const App = () => {
-  return (
-    <>
-      <MyComponent name="포뇨" favoriteNumber={7173}>
-        응애
-      </MyComponent>
-      <Counter></Counter>
-      <Say></Say>
-      <EventPractice />
-      <EventPracticeFunc />
-    </>
-  );
-};
+class App extends Component() {
+  render() {
+    return (
+      <>
+        <MyComponent name="포뇨" favoriteNumber={7173}>
+          응애
+        </MyComponent>
+        <Counter></Counter>
+        <Say></Say>
+        <EventPractice />
+        <EventPracticeFunc />
+        <ValidationSample />
+      </>
+    );
+  }
+}
 
 // class App extends Component() {
 //   render() {
