@@ -2,13 +2,19 @@
 // import { Component } from 'react';
 import './App.css';
 import MyComponent from './MyComponent';
+import Counter from './Counter';
+import Say from './Say';
 // import { Fragment } from 'react';
 
 const App = () => {
   return (
-    <MyComponent name="포뇨" favoriteNumber={7173}>
-      응애
-    </MyComponent>
+    <>
+      <MyComponent name="포뇨" favoriteNumber={7173}>
+        응애
+      </MyComponent>
+      <Counter></Counter>
+      <Say></Say>
+    </>
   );
 };
 
