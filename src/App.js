@@ -8,6 +8,7 @@ import EventPractice from './EventPractice';
 import EventPracticeFunc from './EventPracticeFunc';
 import ValidationSample from './ValidationSample';
 import ScrollBox from './ScrollBox';
+import IterationSample from './IterationSample';
 // import { Fragment } from 'react';
 
 class App extends Component {
@@ -27,6 +28,9 @@ class App extends Component {
         <button onClick={() => this.scrollBox.scrollToBottom()}>
           맨 밑으로
         </button>
+        <br />
+        <br />
+        <IterationSample />
       </>
     );
   }
