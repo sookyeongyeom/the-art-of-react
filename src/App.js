@@ -7,9 +7,10 @@ import Say from './Say';
 import EventPractice from './EventPractice';
 import EventPracticeFunc from './EventPracticeFunc';
 import ValidationSample from './ValidationSample';
+import ScrollBox from './ScrollBox';
 // import { Fragment } from 'react';
 
-class App extends Component() {
+class App extends Component {
   render() {
     return (
       <>
@@ -21,6 +22,11 @@ class App extends Component() {
         <EventPractice />
         <EventPracticeFunc />
         <ValidationSample />
+        <ScrollBox ref={(ref) => (this.scrollBox = ref)} />
+        {/* onClick={this.scrollBox.scrollToBottom} 형식으로 쓰게 되면 최초 로딩 시 this.scrollBox가 undefined이므로 오류 발생 */}
+        <button onClick={() => this.scrollBox.scrollToBottom()}>
+          맨 밑으로
+        </button>
       </>
     );
   }
