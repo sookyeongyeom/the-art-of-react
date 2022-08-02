@@ -5,7 +5,11 @@ import MyComponent from './MyComponent';
 // import { Fragment } from 'react';
 
 const App = () => {
-  return <MyComponent />;
+  return (
+    <MyComponent name="포뇨" favoriteNumber={7173}>
+      응애
+    </MyComponent>
+  );
 };
 
 // class App extends Component() {
