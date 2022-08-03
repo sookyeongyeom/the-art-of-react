@@ -55,17 +55,21 @@
 
 ## 8장 Hooks
 
-- [ ] useState
-- [ ] useEffect
-- [ ] useReducer
-- [ ] useMemo
-- [ ] useCallback
-- [ ] useRef
-- [ ] 커스텀 Hooks 만들기
-- [ ] 다른 Hooks
-- [ ] 정리
+[**리액트를 다루는 기술 - 8장 Hooks**](https://github.com/sookyeongyeom/the-art-of-react-hooks)
+
+- [x] useState
+- [x] useEffect
+- [x] useReducer
+- [x] useMemo
+- [x] useCallback
+- [x] useRef
+- [x] 커스텀 Hooks 만들기
+- [x] 다른 Hooks
+- [x] 정리
 
 ## 9장 컴포넌트 스타일링
+
+[**리액트를 다루는 기술 - 9장 컴포넌트 스타일링**](https://github.com/sookyeongyeom/the-art-of-react-styling)
 
 - [ ] 가장 흔한 방식, 일반 CSS
 - [ ] Sass 사용하기
